@@ -1,6 +1,5 @@
-altair
+st_pages>=0.4.0
 pandas
 streamlit
-st-pages
 deepchem
 openai
