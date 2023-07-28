@@ -1,6 +1,6 @@
 import streamlit as st
-from st_pages import add_page_title
-from PIL import Image
+
+# from PIL import Image
 
 with st.echo("below"):
     from st_pages import Page, add_page_title, show_pages
