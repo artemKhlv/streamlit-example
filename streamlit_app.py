@@ -2,20 +2,20 @@ import streamlit as st
 
 # from PIL import Image
 
-with st.echo("below"):
-    from st_pages import Page, add_page_title, show_pages
+# with st.echo("below"):
+#     from st_pages import Page, add_page_title, show_pages
 
-    "## Declaring the pages in your app:"
+#     "## Declaring the pages in your app:"
 
-    show_pages(
-        [
-            Page("molecule_examine.py", "Molecule Examine", "🧫"),
-            Page("chat.py", "ChatAI", "🪬"),
-            Page("about_us.py", "About us", "🧑🏻‍🔬")
-        ]
-    )
+#     show_pages(
+#         [
+#             Page("molecule_examine.py", "Molecule Examine", "🧫"),
+#             Page("chat.py", "ChatAI", "🪬"),
+#             Page("about_us.py", "About us", "🧑🏻‍🔬")
+#         ]
+#     )
 
-    add_page_title()  # Optional method to add title and icon to current page
+#     add_page_title()  # Optional method to add title and icon to current page
 
 # from st_pages import Page, show_pages
 # show_pages(
