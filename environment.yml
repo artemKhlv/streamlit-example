@@ -1,0 +1,4 @@
+dependencies:
+  - st_pages
+  - numpy
+  - pandas
