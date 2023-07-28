@@ -11,7 +11,7 @@ from PIL import Image
 #     ]
 # )
 
-image = Image.open('/Users/artemkhilalov/Studying/machine_learning/academic_internship_work/streamlit_project/logo-site.png')
+image = Image.open('logo-site.png')
 st.image(image)
 
 st.title('О нас')
