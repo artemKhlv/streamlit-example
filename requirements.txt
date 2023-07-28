@@ -1,3 +1,4 @@
+Pillow
 st_pages
 pandas
 streamlit
