@@ -1,3 +1,6 @@
 altair
 pandas
 streamlit
+st-pages
+deepchem
+openai
