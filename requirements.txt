@@ -1,6 +1,10 @@
-Pillow
-st_pages
-pandas
-streamlit
 deepchem
-openai
+pandas
+matplotlib
+numpy
+Pillow
+rdkit
+st-speckmol
+py3Dmol
+urllib.request
+st_pages
