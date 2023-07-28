@@ -1,21 +1,5 @@
 import streamlit as st
-
-# from PIL import Image
-
-# with st.echo("below"):
-#     from st_pages import Page, add_page_title, show_pages
-
-#     "## Declaring the pages in your app:"
-
-#     show_pages(
-#         [
-#             Page("molecule_examine.py", "Molecule Examine", "🧫"),
-#             Page("chat.py", "ChatAI", "🪬"),
-#             Page("about_us.py", "About us", "🧑🏻‍🔬")
-#         ]
-#     )
-
-#     add_page_title()  # Optional method to add title and icon to current page
+from PIL import Image
 
 # from st_pages import Page, show_pages
 # show_pages(
@@ -27,8 +11,8 @@ import streamlit as st
 #     ]
 # )
 
-# image = Image.open('/Users/artemkhilalov/Studying/machine_learning/academic_internship_work/streamlit_project/logo-site.png')
-# st.image(image)
+image = Image.open('/Users/artemkhilalov/Studying/machine_learning/academic_internship_work/streamlit_project/logo-site.png')
+st.image(image)
 
 st.title('О нас')
 st.write('В Johnson & Johnson мы верим, что хорошее здоровье - это основа яркой жизни, '
